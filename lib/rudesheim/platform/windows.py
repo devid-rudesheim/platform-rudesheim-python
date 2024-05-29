@@ -1,4 +1,4 @@
-import platform as pf
+import pathlib as pl
 from . import basic
 
 class OS( basic.OS ):
