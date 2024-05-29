@@ -1,7 +1,7 @@
+from . import basic as rb
 import pathlib as pl
-from . import basic
 
-class OS( basic.OS ):
+class OS( rb.OS ):
 	@classmethod
 	def name( this ):
 		return "Windows"

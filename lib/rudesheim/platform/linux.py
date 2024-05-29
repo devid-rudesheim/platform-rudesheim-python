@@ -1,4 +1,4 @@
-from . import basic
+from . import basic as rb
 
-class OS( basic.OS ):
+class OS( rb.OS ):
 	pass
